@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="49.999" viewBox="0 0 50 49.999">
+  <g id="regra-09" transform="translate(-159.5 -6250)">
+    <path id="Caminho_4501" data-name="Caminho 4501" d="M83.554,61.827a22.633,22.633,0,1,1-6.629-16.1,22.727,22.727,0,0,1,6.629,16.1" transform="translate(125.945 6215.446)" fill="#fabe2c"/>
+    <g id="Elipse_32" data-name="Elipse 32" transform="translate(159.5 6250)" fill="none" stroke="#c39b29" stroke-miterlimit="10" stroke-width="1.028">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="21.986" fill="none"/>
+    </g>
+    <path id="Caminho_4502" data-name="Caminho 4502" d="M47.39,440.321c3.985-.142.854,9.251-2.42,3.131C45.113,442.456,45.255,441.6,47.39,440.321ZM39.7,455.55c8.682,3.274,22.915-15.087,8.113-18.929-7.543-1.281-12.1,16.083.569,11.528C47.675,452.134,39.278,449.287,39.7,455.55Z" transform="translate(137.85 5828.288)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.994"/>
+  </g>
+</svg>

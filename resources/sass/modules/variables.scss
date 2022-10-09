@@ -1,0 +1,23 @@
+// Typography //
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+$ff: 'Open Sans', sans-serif;
+
+// Colors //
+$colors: (
+  primary: #348BE5,
+  secondary: #034768,
+  green: #13BE94,
+  greentwo: #DFEFFF,
+  white: #FFFFFF,
+  light: #F4F4F4,
+  black: #333333,
+  grey: #C4C4C4,
+  ghost: rgba(0,0,0,.0)
+);
+
+// Transitions //
+$time: 200ms;
+$ease: cubic-bezier(0.165, 0.84, 0.44, 1);
+$smooth: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$transition: $ease, $time;

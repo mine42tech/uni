@@ -1,0 +1,39 @@
+// Imports
+@import "../modules/variables.scss";
+
+// main code
+@mixin section-title($color) {
+    color: $color;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+
+    &::before {
+        // content: '';
+        background: url(../img/icons/icone.svg) no-repeat;
+        background-size: contain;
+        width: 120px;
+        height: 82px;
+        position: absolute;
+        left: -66px;
+        top: -40px;
+    }
+
+    // media queries
+    @media (max-width: 767px) {
+        /* portrait && landscape */
+        font-size: 2rem;
+        display: inline-block;
+
+        &::before {
+            width: 70px;
+            height: 52px;
+            left: -40px;
+            top: -24px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1279px) {
+        /* tablets && small laptops */
+    }
+}

@@ -1,0 +1,50 @@
+// Imports
+@import "../modules/variables.scss";
+
+// Buttons
+@mixin btn-theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  background-color: map-get($colors, primary);
+  color: map-get($colors, white);
+  text-decoration: none !important;
+  border-radius: .8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 140px;
+  height: 48px;
+  transition: $smooth $time;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: inset 14rem 4.8rem .3rem rgba(255,255,255,.1);
+    color: map-get($colors, white);
+  }
+}
+
+@mixin btn-theme-outline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: none;
+  border: 2px solid map-get($colors, primary);
+  background-color: map-get($colors, white);
+  color: map-get($colors, primary);
+  text-decoration: none !important;
+  border-radius: .8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 140px;
+  height: 48px;
+  transition: $smooth $time;
+
+  &:hover {
+    box-shadow: inset 14rem 4.8rem .3rem rgba(54,130,244,.05);
+    color: map-get($colors, primary);
+  }
+}

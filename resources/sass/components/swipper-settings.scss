@@ -1,0 +1,62 @@
+// Imports
+@import "../modules/variables.scss";
+
+// main code
+@mixin swipper-settings {
+    width: 100%;
+    object-fit: cover;
+    background-color: map-get($colors, grey);
+
+    .swiper-wrapper {
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .swiper-button-prev {
+        background: url('../img/icons/prev.svg');
+        left: 0;
+        width: 50px;
+        height: 140px;
+        margin-top: -70px;
+    }
+
+    .swiper-button-next {
+        background: url('../img/icons/next.svg');
+        right: 0;
+        width: 50px;
+        height: 140px;
+        margin-top: -70px;
+    }
+
+    .swiper-pagination {
+        bottom: 30px;
+        .swiper-pagination-bullet {
+            background-color: map-get($colors, white);
+            border-radius: 10px;
+            opacity: .9;
+            width: 20px;
+            height: 20px;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #5fb0eb;
+            background: -moz-linear-gradient(-45deg, #5fb0eb 0%, #1b547e 100%);
+            background: -webkit-linear-gradient(-45deg, #5fb0eb 0%, #1b547e 100%);
+            background: linear-gradient(135deg, #5fb0eb 0%, #1b547e 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5fb0eb', endColorstr='#1b547e', GradientType=1);
+        }
+    }
+
+    .swiper-scrollbar {
+        background: rgba(0, 0, 0, .08);
+        border-radius: 0rem;
+        height: 2px;
+
+        .swiper-scrollbar-drag {
+            background: map-get($colors, primary);
+            border-radius: 0rem;
+        }
+    }
+}
